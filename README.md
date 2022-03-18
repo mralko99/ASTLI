@@ -11,9 +11,9 @@
 Todo
 ### Documents:
 <ul>
-<li>[Concept](https://../Concept.md)</li>
-<li>[Technology](https://../Technology.md)</li>
-<li>[Evaluation](https://../Evaluation.md)</li>
+<li>[Concept](https://github.com/mralko99/Iot-Project/blob/main/Concept.md)</li>
+<li>[Technology](https://github.com/mralko99/Iot-Project/blob/main/Technology.md)</li>
+<li>[Evaluation](https://github.com/mralko99/Iot-Project/blob/main/Evaluation.md)</li>
 </ul>
 
 ### Video Links:
