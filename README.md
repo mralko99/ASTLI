@@ -9,7 +9,7 @@
 * Todo
 
 ### Documents:
-* [Concept](https://github.com/mralko99/Iot-Project/blob/main/Concept.md
+* [Concept](https://github.com/mralko99/Iot-Project/blob/main/Concept.md)
 * [Technology](https://github.com/mralko99/Iot-Project/blob/main/Technology.md)
 * [Evaluation](https://github.com/mralko99/Iot-Project/blob/main/Evaluation.md)
 
