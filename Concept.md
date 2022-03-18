@@ -1,0 +1,1 @@
+A separate mark-down document in the repository (called "Concept") providing details on the product/service from the user point of view, including 2-3 user personas and 1-2 storyboards storyboards.
