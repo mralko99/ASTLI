@@ -8,8 +8,8 @@
 ### Smart Semaphore
 It is the main component of our project: its main purpose is to detect the presence of a traffic jam and adjust the traffic lights to reduce it.
 
-Are used for the detections **a camera with and integrated ESP-32** to capture the images and send them to a **local area station**, **pollution sensor** that detects the current salubrity of the air.
-The data between the camera and the local area station is exchanged via WiFi
+Are used for the detections **a camera with and integrated ESP-32** to capture the images and send them to a **local area station**, **pollution sensor** that detects the current salubrity of the air, a **microphone** that allows to detect the presence of an emergency vehicle and a **voltage sensor** that allows us to detect the status of the semaphore.
+The data between the camera and the local area station is exchanged via WiFi.
 The sensors are controlled by a ESP-32 board.
 
 ### Local Area Station
@@ -24,31 +24,24 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 ### Camera with ESP32
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/camera_esp32.jpg" width="400">
 
-
-
-It is used for movement detection and orientation.
 ### Air Quality Sensor
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air%20sensor.jpg">
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air_sensor.jpg">
+
+### Microphone
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
 
 ### Voltage Sensor
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/51HVZdowtJL._AC_SL1001_.jpg"  width=400/>
 
-### Solar Panel
-
-<img src="https://images-na.ssl-images-amazon.com/images/I/51t9Z3nh4uL._SL1001_.jpg"  width=400/>
 
 ## Actuators
 
 ### Relay Module
 
-![Img](https://github.com/mralko99/Iot-Project/blob/main/img/relay%20module.jpg)
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/relay_module.jpg" width="400">>
 
 
 ## Communication
-- **Smart-to-Sea Station Communication** is via Radio in our original design, in practice we will use Bluetooth with this antenna. Prediodically are sent packets with the status of the sensor.
-- **Sea Station-to-Cloud Communication**  via simple wi-fi network
-
-## The final picture
-
-![Img](https://github.com/IlKaiser/IoT_Group-Project/blob/main/imgs/picture.png )
+- **Camera-to-Local Area Station Communication** is via WiFi. Periodically are sent packets with the status of the sensor.
+- **Sea Station-to-Cloud Communication**  via internet with a ethernet/4G connection that guarantees a good throughput.
