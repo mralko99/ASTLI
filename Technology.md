@@ -17,11 +17,11 @@ The sensors are controlled by a ESP-32 board.
 It is a raspberryPI that collects all the data form the semaphores of the cross. It elaborates the data and sends it via internet to the remote AWS that calculates the best configuration for the semaphores. Every semaphore has an unique id for identification.
 
 ### Cloud Computing
-The data recieved from the pi is elaborated and stored on the cloud. This data is further elaborated to get a real traffic count through the use of object detection.
+The data recieved from the raspberryPI is elaborated and stored on the cloud. This data is further elaborated to get a real traffic count through the use of object detection.
 After that an algorithm decides the semaphore configuration.
 
 ### Web Dashboard
-It is composed by the remote server (using **Aws services and nodejs**) and by the frontend (web page and eventually an app). It displays the current status of the semaphores and allows to tweak the parameters of the algorithm that controls them.
+It is composed by the remote server (using **AWS services and nodejs**) and by the frontend (web page and eventually an app). It displays the current status of the semaphores and allows to tweak the parameters of the algorithm that controls them.
 
 ## Sensors
 
