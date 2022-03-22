@@ -39,7 +39,7 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 
 ### Relay Module
 
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/relay_module.jpg">
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/relay_module.jpg" width="400">>
 
 
 ## Communication
