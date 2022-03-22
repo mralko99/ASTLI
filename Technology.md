@@ -22,7 +22,8 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 
 
 ### Camera with ESP32
-![Img](https://github.com/mralko99/Iot-Project/blob/main/img/camera%20esp32.jpg =250x) 
+<img src="img/camera esp32.png" width="200">
+
 
 
 It is used for movement detection and orientation.
