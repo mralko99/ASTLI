@@ -22,7 +22,7 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 
 
 ### Camera with ESP32
-<img src="img/camera esp32.png" width="200">
+<img src="img/camera_esp32.png" width="200">
 
 
 
