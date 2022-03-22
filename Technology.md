@@ -28,7 +28,7 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 
 It is used for movement detection and orientation.
 ### Air Quality Sensor
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air%20sensor.jpg">
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air_sensor.jpg">
 
 ### Voltage Sensor
 
@@ -42,7 +42,7 @@ It is used for movement detection and orientation.
 
 ### Relay Module
 
-![Img](https://github.com/mralko99/Iot-Project/blob/main/img/relay%20module.jpg)
+![Img](https://github.com/mralko99/Iot-Project/blob/main/img/relay_module.jpg)
 
 
 ## Communication
