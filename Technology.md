@@ -28,7 +28,7 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/air_sensor.jpg">
 
 ### Microphone
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">>
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
 
 ### Voltage Sensor
 
