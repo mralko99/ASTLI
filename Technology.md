@@ -15,6 +15,9 @@ The sensors are controlled by a ESP-32 board.
 ### Local Area Station
 It is a raspberryPI that collects all the data form the semaphores of the cross. It elaborates the data and sends it via internet to the remote AWS that calculates the best configuration for the semaphores. Every semaphore has an unique id for identification.
 
+### Cloud Computing
+
+
 ### Web Dashboard
 It is composed by the remote server (using **Aws services and nodejs**) and by the frontend (web page and eventually an app). It displays the current status of the semaphores and allows to tweak the parameters of the algorithm that controls them.
 
@@ -25,21 +28,21 @@ It is composed by the remote server (using **Aws services and nodejs**) and by t
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/camera_esp32.jpg" width="400">
 
 ### Air Quality Sensor
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air_sensor.jpg">
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air_sensor.jpg" width="400">
 
 ### Microphone
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
 
-### Voltage Sensor
+### Current Sensor
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/51HVZdowtJL._AC_SL1001_.jpg"  width=400/>
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/current-sensor.jpg"  width="400">
 
 
 ## Actuators
 
 ### Relay Module
 
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/relay_module.jpg" width="400">>
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/relay_module.jpg" width="400">
 
 
 ## Communication
