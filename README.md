@@ -1,4 +1,4 @@
-# Iot-Project-Name
+# ASTLI - Advanced Smart Traffic Lights
 
 ### Members:
 * **Andrea Leganza** mat. 788513 [linkedin](https://www.linkedin.com/in/andrealeganza)
@@ -6,7 +6,7 @@
 * **Ghenadie Artic** mat. 1804049 [linkedin](https://www.linkedin.com/in/ghenadie-artic-1b42401a6/) 
 
 ### Project idea:
-* Todo
+* ASTLI - Advanced Smart Traffic Lights is a project to improve traffic lights adding sensors to improve traffic management and monitoring environment and pollution.
 
 ### Documents:
 * [Concept](https://github.com/mralko99/Iot-Project/blob/main/Concept.md)
