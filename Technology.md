@@ -1,12 +1,12 @@
 # Technology
 
 ## Core: Four main parts
-- Smart Semaphore
+- Smart Camera
 - Local Area Station
 - Cloud Computing
 - Web Dashboard
 
-### Smart Semaphore
+### Smart Camera
 It is the main component of our project: its main purpose is to detect the presence of a traffic jam and adjust the traffic lights to reduce it.
 
 Are used for the detections **a camera with and integrated ESP-32** to capture the images and send them to a **local area station**, **pollution sensor** that detects the current salubrity of the air, a **microphone** that allows to detect the presence of an emergency vehicle and a **voltage sensor** that allows us to detect the status of the semaphore.
