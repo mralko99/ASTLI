@@ -12,6 +12,8 @@
 
 Now for each of the previous points we explain our decisions:
 
+3. the main idea is to get the energy from the cross lights
+5. 6. To run ML on the edge we don't have enough resources so we will do it on cloud.
 
 
 ## Changes
