@@ -1,12 +1,8 @@
 #include <WebServer.h>
-#include <WiFi.h>
+#include <WiFiManager.h>
 #include <esp32cam.h>
- 
-const char* WIFI_SSID = "Coluzzi";
-const char* WIFI_PASS = "CasaColuzzi";
- 
+  
 WebServer server(80);
- 
  
 static auto loRes = esp32cam::Resolution::find(320, 240);
 static auto midRes = esp32cam::Resolution::find(350, 530);
@@ -68,11 +64,21 @@ void  setup(){
     Serial.println(ok ? "CAMERA OK" : "CAMERA FAIL");
   }
   WiFi.persistent(false);
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(WIFI_SSID, WIFI_PASS);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+  
+  WiFi.mode(WIFI_STA); 
+  
+  WiFiManager wm;
+
+  //wm.resetSettings();
+
+  bool res;
+  res = wm.autoConnect("ASTLI_CAM","password"); // password protected ap
+
+  if(!res) {
+      Serial.println("Failed to connect");
+      //ESP.restart();
   }
+  
   Serial.print("http://");
   Serial.println(WiFi.localIP());
   Serial.println("  /cam-lo.jpg");
