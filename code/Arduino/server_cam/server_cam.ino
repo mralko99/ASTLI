@@ -27,7 +27,7 @@ void serveJpg()
   }
   Serial.printf("CAPTURE OK %dx%d %db\n", frame->getWidth(), frame->getHeight(),
                 static_cast<int>(frame->size()));
- 
+  blink(500);
   server.setContentLength(frame->size());
   server.send(200, "image/jpeg");
   WiFiClient client = server.client();
@@ -139,7 +139,6 @@ void setup() {
 void loop() {
     server.handleClient();
     
-    blink(1000);
     // Wifi Dies? Start Portal Again
     if (WiFi.status() != WL_CONNECTED) {
       ESP.restart();
