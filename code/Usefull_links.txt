@@ -1,5 +1,6 @@
 #Libreria Arduino
 https://github.com/yoursunny/esp32cam
+https://github.com/mrfaptastic/WiFiConnectLite.git
 #Dependencies error
 https://serveanswer.com/questions/cvlib-detect-common-objects-function-doesnt-work
 #Cover Camera
