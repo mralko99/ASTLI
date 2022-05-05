@@ -129,7 +129,9 @@ void setup() {
   }
   else{
     Serial.print("RESET");
-    ESP.restart();
+    while(true){
+      blink(100);
+      }
     }
 
 }
