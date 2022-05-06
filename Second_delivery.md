@@ -25,8 +25,8 @@ Now for each of the previous points we explain our decisions:
 ## Changes
 
 ### Concept
--We decided to remove the feature of speed trapping, so to block speeding cars
--We decided to remove the feature of turning off the semaphore 
+-We decided to remove the feature of speed trapping, so to block speeding cars.
+-We decided to remove the feature of turning off the semaphore.
 
 ### Architecture
 We decided to try the detection on the edge, we would like to implement a queque on a raspberry pi to make the detection near realtime.
