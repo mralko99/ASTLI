@@ -54,9 +54,11 @@ The Arduino is used to attach all the sensors, all the data is then transmitted 
 It's used to have an interface with all the sensing data and to force a state on the local area station.
 
 ### Evaluation
-For the evaluation:
+- we evaluated that the **NN** makes 3 detection every second 
+
+### Evaluation expected for 3rd delivery
 - we still need to estimate the **power consumption** of single camera
 - we still need to estimate the **power consumption** of the local area station
 - we still need to estimate the **power consumption** of the sensing station
-- we evaluated that the **NN** makes 3 detection every second 
 - we still need to estimate the **latency** in the whole system
+
