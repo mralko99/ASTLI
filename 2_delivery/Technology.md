@@ -8,20 +8,28 @@
 
 ### Connected Camera
 It is the main component of our project: its main purpose is to detect the presence of a traffic jam.
-
-Are used for the detections **a camera with and integrated ESP-32** to capture the images and send them to a **local area station**, **pollution sensor** that detects the current salubrity of the air, a **microphone** that allows to detect the presence of an emergency vehicle and a **voltage sensor** that allows us to detect the status of the semaphore.
-The data between the camera and the local area station is exchanged via WiFi.
-The sensors are controlled by a ESP-32 board.
+The camera has a system to create an ap if it has problem to connect to the internet.
+On this system we have a web page that will allow the user to connect to the camera and to change the wifi settings.
+The camera is a http server, that accepts request, and sends the frames to the local area station.
 
 ### Local Area Station
-It is a raspberryPI that collects all the data form the semaphores of the cross. It elaborates the data and sends it via internet to the remote AWS that calculates the best configuration for the semaphores. Every semaphore has an unique id for identification.
+On our local area station we have a docker container that makes request to the camera and detect the objects.
+We also have a container that will implement a finite state machine that will control the semaphore.
+At the end of the stack we have a relay board that will control the junction.
+
+### Wheather Station
+It's an arduino 1010 that it's connected to the air quality sensor, temperature/humidity sensor and a microphone to record the audio pollution.
+All this data is then transmitted to the cloud.
 
 ### Cloud Computing
-The data recieved from the raspberryPI is elaborated and stored on the cloud. This data is further elaborated to get a real traffic count through the use of object detection.
-After that an algorithm decides the semaphore configuration.
+The data recieved from the raspberryPI(finite state machine staatus and predictions) is stored on the cloud.
+We also collect all the data from the weather station and store it on the cloud.
+We process all this information and in case we detect some high level schema on the traffic we can adjust the semaphores.
 
 ### Web Dashboard
-It is composed by the remote server (using **AWS services and nodejs**) and by the frontend (web page and eventually an app). It displays the current status of the semaphores and allows to tweak the parameters of the algorithm that controls them.
+It is composed by the remote server (using **AWS services and nodejs**) and by the frontend (web page and eventually an app).
+It displays the current status of the semaphores, all the data from the sensors and it displays the detection made from the system.
+It can also make the user change the status of the semaphore from the web view.
 
 ## Sensors
 
