@@ -89,7 +89,6 @@ void startWiFi(boolean showParams = false) {
     if (!wc.autoConnect()) { // try to connect to wifi
       /* We could also use button etc. to trigger the portal on demand within main loop */
       wc.startConfigurationPortal(AP_WAIT);//if not connected show the configuration portal
-      digitalWrite(LED_BUILTIN, HIGH);
     }
 }
 
@@ -120,10 +119,13 @@ void setup() {
     Serial.println("  /cam-lo.jpg");
     Serial.println("  /cam-hi.jpg");
     Serial.println("  /cam-mid.jpg");
+    
+    
    
     server.on("/cam-lo.jpg", handleJpgLo);
     server.on("/cam-hi.jpg", handleJpgHi);
     server.on("/cam-mid.jpg", handleJpgMid);
+
     
     server.begin();
   }
@@ -132,11 +134,13 @@ void setup() {
     while(true){
       blink(100);
       }
-    }
+  }
+  
 
 }
 
 void loop() {
+    
     server.handleClient();
     
     // Wifi Dies? Start Portal Again
