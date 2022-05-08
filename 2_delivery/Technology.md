@@ -52,12 +52,16 @@ We are using and Arduino MKR WiFi 1010.
 CCS811 Carbon Monoxide CO VOCs Air Quality Numerical Gas Sensors CJMCU-811 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Pollution_Crop.jpg" width="400">
 
-### Humidity annd temperature sensors
+### Humidity annd temperature sensor
 AZDelivery DHT22 AM2302
 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/HT_Crop.jpg" width="400">
 
-### Microphone
+### Light sensor
+DFRobot Analog light sensor
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Light.jpg" width="400">
+
+### Microphone sensor
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
 
 ### Semaphores
