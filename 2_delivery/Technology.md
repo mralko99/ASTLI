@@ -37,6 +37,7 @@ We 3D print a case to host the ESP32 camera .
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Case.jpg" width="400">
 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Case_Back_Crop.jpg" width="400">
+
 ## Board
 We are using and Arduino MKR WiFi 1010.
 
