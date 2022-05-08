@@ -54,6 +54,7 @@ CCS811 Carbon Monoxide CO VOCs Air Quality Numerical Gas Sensors CJMCU-811
 
 ### Humidity annd temperature sensors
 AZDelivery DHT22 AM2302
+
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/HT_Crop.jpg" width="400">
 
 ### Microphone
