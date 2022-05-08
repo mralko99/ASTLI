@@ -18,11 +18,11 @@ We also have a container that will implement a finite state machine that will co
 At the end of the stack we have a relay board that will control the junction.
 
 ### Wheather Station
-It's an arduino 1010 that it's connected to the air quality sensor, temperature/humidity sensor and a microphone to record the audio pollution.
+It runs on an Arduino 1010 board that it's connected to the air quality sensor, temperature/humidity sensor and a microphone to record the audio pollution.
 All this data is then transmitted to the cloud.
 
 ### Cloud Computing
-The data recieved from the raspberryPI(finite state machine staatus and predictions) is stored on the cloud.
+The data recieved from the RaspberryPI (which uses a finite state machine status and predictions) is stored on the cloud.
 We also collect all the data from the weather station and store it on the cloud.
 We process all this information and in case we detect some high level schema on the traffic we can adjust the semaphores.
 
@@ -36,8 +36,9 @@ We 3D print a case to host the ESP32 camera .
 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Case.jpg" width="400">
 
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Case_Back_Crop.jpg" width="400">
 ## Board
-We are using and Arduino 1010.
+We are using and Arduino MKR WiFi 1010.
 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Arduino_1010.jpg" width="400">
 
@@ -47,9 +48,11 @@ We are using and Arduino 1010.
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/ESP32_Crop.jpg" width="400">
 
 ### Air Quality Sensor
+CCS811 Carbon Monoxide CO VOCs Air Quality Numerical Gas Sensors CJMCU-811 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Pollution_Crop.jpg" width="400">
 
 ### Humidity annd temperature sensors
+AZDelivery DHT22 AM2302
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/HT_Crop.jpg" width="400">
 
 ### Microphone
