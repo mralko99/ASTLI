@@ -56,10 +56,10 @@ We are using and Arduino 1010.
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
 
 ### Semaphores
-
+To create our prototype we are using RGB semaphores.
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Semaphore_Crop.jpg"  width="400">
 
-### Current Sensor
+### Relay
 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/current-sensor.jpg"  width="400">
 
