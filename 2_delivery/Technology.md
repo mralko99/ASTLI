@@ -50,6 +50,7 @@ We are using and Arduino MKR WiFi 1010.
 
 ### Air Quality Sensor
 CCS811 Carbon Monoxide CO VOCs Air Quality Numerical Gas Sensors CJMCU-811 
+
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Pollution_Crop.jpg" width="400">
 
 ### Humidity annd temperature sensor
