@@ -31,17 +31,33 @@ It is composed by the remote server (using **AWS services and nodejs**) and by t
 It displays the current status of the semaphores, all the data from the sensors and it displays the detection made from the system.
 It can also make the user change the status of the semaphore from the web view.
 
+## Case
+We 3D print a case to host the ESP32 camera .
+
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Case.jpg" width="400">
+
+## Board
+We are using and Arduino 1010.
+
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Arduino_1010.jpg" width="400">
+
 ## Sensors
 
-
 ### Camera with ESP32
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/camera_esp32.jpg" width="400">
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/ESP32_Crop.jpg" width="400">
 
 ### Air Quality Sensor
-<img src="https://github.com/mralko99/Iot-Project/blob/main/img/air_sensor.jpg" width="400">
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Pollution_Crop.jpg" width="400">
+
+### Humidity annd temperature sensors
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/HT_Crop.jpg" width="400">
 
 ### Microphone
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
+
+### Semaphores
+
+<img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Semaphore_Crop.jpg"  width="400">
 
 ### Current Sensor
 
