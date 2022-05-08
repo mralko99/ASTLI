@@ -59,7 +59,9 @@ AZDelivery DHT22 AM2302
 
 ### Light sensor
 DFRobot Analog light sensor
+<div style="text-align: left"> 
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/Macro/Light.jpg" width="400">
+</div>
 
 ### Microphone sensor
 <img src="https://github.com/mralko99/Iot-Project/blob/main/img/microphone.jpg" width="400">
