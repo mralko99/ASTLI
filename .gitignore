@@ -1,3 +1,4 @@
 .DS_Store
 logs/
 .vscode/c_cpp_properties.json
+evaluation_resources/
