@@ -28,4 +28,4 @@
 * [Evaluation](https://github.com/mralko99/Iot-Project/blob/main/2_delivery/Evaluation.md)
 
 ### Video Links:
-
+* [technical approach, the architecture and main technologies](https://youtu.be/TYNPdbnVm6w)
