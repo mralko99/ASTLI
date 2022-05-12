@@ -1,0 +1,9 @@
+-Traffic recognition system
+	Capire come collegare la stream video, magari scaricando i frame una volta che ha finito
+	Invece di un output bbox deve passare un conteggio delle classi all'MQTT server
+		Person, Bicycle, Motorcycle, Car, Truck, Bus (Classi di interesse in COCO)
+-Finite state machine
+	Analisi dati dal subscriber MQTT
+	Decisione diretta con un algoritmo dello stato dei semafori
+-Actuation
+	Una volta deciso lo stato del semaforo lo controlla direttamente e lo cambia

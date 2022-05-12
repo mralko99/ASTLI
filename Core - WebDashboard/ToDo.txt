@@ -1,0 +1,5 @@
+-Implemetare Dashboard:
+	MQTT Server Subscriber
+	Grafico Sensori
+	Grafico Crowded(Traccia prendendo dall'Mqtt Server un grafico degli oggetti all'incrocio)
+	Stato Semaforo con controllo remoto
