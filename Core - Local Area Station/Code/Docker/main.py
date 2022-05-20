@@ -17,10 +17,15 @@ app = Flask(__name__)
 
 
 def run2():
+    capture = cv2.VideoCapture(url)
     while True:
-        img_resp=urllib.request.urlopen(url)
-        imgnp=np.array(bytearray(img_resp.read()),dtype=np.uint8)
-        im = cv2.imdecode(imgnp,-1)
+        #img_resp=urllib.request.urlopen(url)
+        #imgnp=np.array(bytearray(img_resp.read()),dtype=np.uint8)
+        _, frame = capture.read()
+        #im = cv2.imdecode(imgnp,-1)
+        print(np.shape(frame))
+        im = frame#cv2.imdecode(frame,-1)
+        
         bbox, label, conf = cv.detect_common_objects(im)
         ct = datetime.datetime.now()
         print(ct,": ",bbox, label, conf)
@@ -39,6 +44,7 @@ if __name__ == '__main__':
         "url", type=str, help="File containing data you want to evaluate upon"
     )
     args = parser.parse_args()
-    url = 'http://'+args.url+'/cam-hi.jpg'
+    #url = 'http://'+args.url
+    url = 'rtsp://'+args.url+':8554/mjpeg/1'
     print(url)
     app.run(host='0.0.0.0',port=12345)#, debug=True)
